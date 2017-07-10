@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+header {
+    padding: 0em;
+    color: white;
+    background-color: white;
+    clear: left;
+    text-align: center;
+    font-family: trebuchet ms;
+}
+footer {
+    padding: .7em;
+    color: white;
+    background-color: lightblue;
+    clear: left;
+    text-align: center;
+    font-family: trebuchet ms;
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    font-family: trebuchet ms;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+article {
+    margin-left: 130px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    font-family: trebuchet ms;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <img src="https://www.discotech.me/wp-content/uploads/2016/11/San-Francisco.jpg" alt="SanFrancisco" style="width:704px;height:200px;">
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">PORTFOLIO</a></li>
+    <li><a href="#">CONTACT</a></li>
+    <li><a href="#">ABOUT</a></li>
+  </ul>
+</nav>
+
+<article>
+  <h1>ELAINE HUANG</h1>
+  <p style="color:lightblue;">
+<i>A high school teen living in the Southern Bay Area of California.</i></p>
+  <p>Believer in naps. <b>Lover</b> of breakfast foods. Enthusiastic fan of excellent books and even better milk tea.<br><i><b>Not</b></i> as big a fan of styrofoam, lobster or airplane bathrooms.<br>Aspiring scientist.</p>
+  <p>In order to provide accessibility to a wider range of users, I plan to offer information for varying methods of contact, utilize subtitles if I upload videos, and implement retracting braille display. I'd also like to experiment with using pictures as backgrounds and adding more to my template so it doesn’t look as similar to others'. I struggled with understanding how to adjust specific aspects of the page, such as background width and reviewed the HTML tutorial frequently. I still am not familiar with the language and have a lot more adjustments to make to my page in order to personalize it.</p>
+  <p>In both Python and Scratch, loops, variables, and conditionals are used. While Scratch is more animation-based, Python can be used to code anything. Python also needs to have information imported, such as the turtle library, and specific wording is necessary.<br>I liked trying new variations of what I had coded to see what the problem was and how I could fix it. It was satisfying to find what was the root of the trouble, although it was sometimes difficult since the mistakes were usually small and easily overlooked.</p>
+</article>
+
+<footer style="color:white;">STUDENT | LEADER | VOLUNTEER</footer>
+
+</div>
+
+</body>
+</html>
